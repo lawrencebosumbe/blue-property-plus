@@ -1,4 +1,4 @@
 <?php
 	define('LIBS', 'libs/');
-	define('URL', 'http://localhost/workspace/ajax-live-search/');
+	define('URL', 'http://localhost/workspace/blue-property-plus/');
 ?>
