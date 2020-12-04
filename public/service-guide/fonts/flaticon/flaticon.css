@@ -1,0 +1,68 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 20/09/2017 09:48
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-size: 54px;
+  font-style: normal;
+  margin-left: 0px;
+  line-height:1
+}
+
+.flaticon-bag-outline:before { content: "\f100"; }
+.flaticon-people:before { content: "\f101"; }
+.flaticon-video:before { content: "\f102"; }
+.flaticon-telephone-purchase:before { content: "\f103"; }
+.flaticon-chat-support:before { content: "\f104"; }
+.flaticon-wrench:before { content: "\f105"; }
+.flaticon-account-passkey:before { content: "\f106"; }
+.flaticon-security-on:before { content: "\f107"; }
+.flaticon-study-certificate:before { content: "\f108"; }
+.flaticon-round-account-button-with-user-inside:before { content: "\f109"; }
+.flaticon-warning-sign:before { content: "\f10a"; }
+.flaticon-locked-internet-security-padlock:before { content: "\f10b"; }
+.flaticon-placeholder-filled-point:before { content: "\f10c"; }
+.flaticon-four-thumbnails-visualization-button:before { content: "\f10d"; }
+.flaticon-shield-variant-with-white-and-black-borders:before { content: "\f10e"; }
+.flaticon-policeman:before { content: "\f10f"; }
+.flaticon-listing-option:before { content: "\f110"; }
+.flaticon-call-answer:before { content: "\f111"; }
+.flaticon-women-account:before { content: "\f112"; }
+.flaticon-technology:before { content: "\f113"; }
+.flaticon-food:before { content: "\f114"; }
+.flaticon-question:before { content: "\f115"; }
+.flaticon-arroba:before { content: "\f116"; }
+.flaticon-fingerprint:before { content: "\f117"; }
+.flaticon-button:before { content: "\f118"; }
+.flaticon-warning:before { content: "\f119"; }
+.flaticon-joke:before { content: "\f11a"; }
+.flaticon-substract:before { content: "\f11b"; }
+.flaticon-add:before { content: "\f11c"; }
+.flaticon-play-button-1:before { content: "\f11d"; }
+.flaticon-pdf:before { content: "\f11e"; }
+.flaticon-doc:before { content: "\f11f"; }
+.flaticon-play-button:before { content: "\f120"; }
+.flaticon-support:before { content: "\f121"; }
+.flaticon-house-with-shield:before { content: "\f122"; }
+.flaticon-protection-shield-with-a-check-mark:before { content: "\f123"; }

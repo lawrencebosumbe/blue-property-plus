@@ -1,0 +1,61 @@
+/*
+-----------------------------------------------------------------------------
+	OVERLAY BACKGROUND COLOR OPACITY
+-----------------------------------------------------------------------------
+*/
+
+.blog-item:hover .overlay{
+	background-color:rgba(255, 255, 255, 0.3)
+}
+
+
+/*
+-----------------------------------------------------------------------------
+	SECTION TITLE COLOR
+-----------------------------------------------------------------------------
+*/
+
+.section-title::before, 
+.inner-title:before {
+	background-color: #44a9ff
+}
+.section-title .title-tag,
+.top-right ul li ul.dropdown-menu a:hover {
+	color: #44a9ff
+}
+.top-right ul li ul.dropdown-menu a,
+.sub-title {
+	color: #030d26
+}
+
+
+
+/* Photo Gallery Section */
+
+.overlay [class^="flaticon-"]:before{
+	color: #44a9ff
+}
+
+/*
+-----------------------------------------------------------------------------
+	PROPERTY GUIDE COLOR SCHEMES
+-----------------------------------------------------------------------------
+*/
+
+.blog-item, .team-member {
+	border: 0 !important;
+}
+.blog-text a {
+	color:#909090
+}
+.blog-item:hover .thumb-title{
+	color: #44a9ff
+}
+
+.section-title{
+	color: #069;
+}
+
+.sub-title{
+	color:#909090
+}

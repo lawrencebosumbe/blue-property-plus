@@ -1,0 +1,85 @@
+/*
+----------------------------------------------------------------
+	CITY & SUBURB MENU STYLES
+----------------------------------------------------------------
+*/
+
+/*
+	HIDE & SHOW LIST
+----------------------------------------------------------------
+*/
+ul li .showCity{
+	position: relative;
+	top: 10px;
+}
+
+ul li .hideCity{
+	position: relative;
+	top: 10px;
+}
+
+ul li .showSuburb{
+	position: relative;
+	top: 10px;
+}
+
+ul li .hideSuburb{
+	position: relative;
+	top: 10px;
+}
+
+ul li .showMunicipality{
+	position: relative;
+	top: 10px;
+}
+
+ul li .hideMunicipality{
+	position: relative;
+	top: 10px;
+}
+
+/*
+	LISTING PLUS
+----------------------------------------------------------------
+*/
+.listing__plus {
+	margin-top: 125px;
+
+}
+
+/*
+	LISTING IMAGE & LOGO
+----------------------------------------------------------------
+*/
+
+.listing-ads .image-holder{
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.image-holder img{
+	position: relative;
+	top: 5px;
+	width: 100%;
+}
+
+/*
+	LISTING DESCRIPTION & PRICE
+----------------------------------------------------------------
+*/
+
+.properties h4 a{
+	position: relative;
+	top: -30px;
+	left: 17%;
+}
+
+.price{
+	position: relative;
+	top: 35px;
+	left: 20%;
+	font-size: 28px;
+	font-weight: bold;
+	bottom: 15px !important;
+}

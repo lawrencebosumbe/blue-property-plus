@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="MunicipalityDB.php" server="C:/xampp/htdocs/workspace/" local="131965408394107726" remote="131965408390000000" />
+<file name="CityDB.php" server="C:/xampp/htdocs/workspace/" local="131911986853623207" remote="131911986850000000" />
+<file name="SuburbDB.php" server="C:/xampp/htdocs/workspace/" local="131945494121289632" remote="131945494120000000" />
+<file name="PropertyDB.php" server="C:/xampp/htdocs/workspace/" local="131949990371262253" remote="131949990370000000" />
+<file name="Pagination.php" server="C:/xampp/htdocs/workspace/" local="131880506511633435" remote="131880506510000000" />
+<file name="Suburb.php" server="C:/xampp/htdocs/workspace/" local="131903196807541746" remote="131903196800000000" />
+<file name="EmailContact.php" server="C:/xampp/htdocs/workspace/" local="131897755103085598" remote="131897755100000000" />
+<file name="City.php" server="C:/xampp/htdocs/workspace/" local="131913699657842159" remote="131913699650000000" />
+<file name="RentalListing.php" server="C:/xampp/htdocs/workspace/" local="131902202377862065" remote="131902202370000000" />
+<file name="SaleListing.php" server="C:/xampp/htdocs/workspace/" local="131902161368114654" remote="131902161360000000" />
+<file name="OnShowListing.php" server="C:/xampp/htdocs/workspace/" local="131902201912120607" remote="131902201910000000" />
+<file name="PostDB.php" server="C:/xampp/htdocs/workspace/" local="131904746133793400" remote="131904746130000000" />
+<file name="Ads.php" server="C:/xampp/htdocs/workspace/" local="131946407588419510" remote="131946407580000000" />
+<file name="AdsDB.php" server="C:/xampp/htdocs/workspace/" local="131946923893216333" remote="131946923890000000" />
+<file name="ProvinceDB.php" server="C:/xampp/htdocs/workspace/" local="131905211657849812" remote="131905211650000000" />
+<file name="Property.php" server="C:/xampp/htdocs/workspace/" local="131913654693353873" remote="131913654690000000" />
+<file name="EasternCapeProperty.php" server="C:/xampp/htdocs/workspace/" local="131908575468072392" remote="131908575460000000" />
+<file name="EasternCapePropertyDB.php" server="C:/xampp/htdocs/workspace/" local="132021531526116770" remote="132021531520000000" />
+<file name="Municipality.php" server="C:/xampp/htdocs/workspace/" local="131947037565149872" remote="131947037560000000" />
+<file name="Agent.php" server="C:/xampp/htdocs/workspace/" local="131946903593756028" remote="131946903590000000" />
+<file name="Database.php" server="C:/xampp/htdocs/workspace/" local="131999167802238463" remote="131999167800000000" />
+<file name="FreeStateProperty.php" server="C:/xampp/htdocs/workspace/" local="131957434643801422" remote="131957434640000000" />
+<file name="FreeStatePropertyDB.php" server="C:/xampp/htdocs/workspace/" local="131966769166805222" remote="131966769160000000" />
+<file name="KwazuluNatalProperty.php" server="C:/xampp/htdocs/workspace/" local="131958944955429815" remote="131958944950000000" />
+<file name="KwazuluNatalPropertyDB.php" server="C:/xampp/htdocs/workspace/" local="132015439866353742" remote="132015439860000000" />
+<file name="WesternCapePropertyDB.php" server="C:/xampp/htdocs/workspace/" local="131967140573034789" remote="131967140570000000" />
+<file name="WesternCapeProperty.php" server="C:/xampp/htdocs/workspace/" local="131959232089017217" remote="131959232080000000" />
+<file name="GautengPropertyDB.php" server="C:/xampp/htdocs/workspace/" local="131976803965234038" remote="131976803960000000" />
+<file name="GautengProperty.php" server="C:/xampp/htdocs/workspace/" local="131965746322209777" remote="131965746320000000" />
+<file name="Province.php" server="C:/xampp/htdocs/workspace/" local="131965819885049835" remote="131965819880000000" />
+<file name="LimpopoPropertyDB.php" server="C:/xampp/htdocs/workspace/" local="131975236632601167" remote="131975236630000000" />
+<file name="MpumalangaPropertyDB.php" server="C:/xampp/htdocs/workspace/" local="132027364229323106" remote="132027364220000000" />
+<file name="MpumalangaProperty.php" server="C:/xampp/htdocs/workspace/" local="131972956323322640" remote="131972956320000000" />
+<file name="LimpopoProperty.php" server="C:/xampp/htdocs/workspace/" local="131972956623722905" remote="131972956620000000" />
+<file name="NorthernCapePropertyDB.php" server="C:/xampp/htdocs/workspace/" local="132021535360716096" remote="132021535360000000" />
+<file name="NorthernCapeProperty.php" server="C:/xampp/htdocs/workspace/" local="131973118654781700" remote="131973118650000000" />
+<file name="NorthWestProperty.php" server="C:/xampp/htdocs/workspace/" local="131973234749244423" remote="131973234740000000" />
+<file name="NorthWestPropertyDB.php" server="C:/xampp/htdocs/workspace/" local="132021188591346726" remote="132021188590000000" />
+</dwsync>

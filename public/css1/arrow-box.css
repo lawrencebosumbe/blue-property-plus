@@ -1,0 +1,452 @@
+/*
+-----------------------------------------------------------------------------
+	ARROW DIV
+-----------------------------------------------------------------------------
+*/
+
+.arrow-division {
+	position: absolute;
+	top: 250px;
+	left: 155px;
+	/*background: #f1f1f1;*/
+	background: rgb(255, 255, 255, .5);
+	/*border: 5px solid #38a9ff;*/
+	border: 5px solid #069;
+	width: 80%;
+	height: 50%;
+	border-radius: 15px !important;
+	z-index: 100;
+}
+.arrow-division:after, .arrow-division:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+/*
+.arrow-division:after {
+	border-color: rgba(241, 241, 241, 0);
+	border-bottom-color: #f1f1f1;
+	border-width: 20px;
+	margin-left: -20px;
+}
+.arrow-division:before {
+	border-color: rgba(221, 221, 221, 0);
+	border-bottom-color: #47a3da;
+	border-width: 27px;
+	margin-left: -27px;
+}
+*/
+
+/*
+-----------------------------------------------------------------------------
+	SEARCH FIELD
+-----------------------------------------------------------------------------
+*/
+
+.arrow-division .menu{
+	position: relative;
+	color: #069;
+	font-size:16px;
+}
+ 
+.arrow-division .menu ul li{
+	display:inline-block;
+	margin-top: 25px;
+	margin-left: -25px;
+}
+  
+.arrow-division .menu ul li .active{
+	color: #f00;
+}
+ 
+.arrow-division .menu ul li:nth-child(even){
+	margin-left: 15px;
+}
+   
+.arrow-division .menu ul li:nth-child(n+2){
+	margin-left: 15px;
+}
+   
+.arrow-division .menu ul li a{
+	color: #069;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu ul li a:hover{
+	color: #f00;
+	font-weight: bold;
+}
+
+.arrow-division .menu .sub-menu ul li {
+	margin-left: -75px !important;
+}
+	
+.arrow-division .menu .sub-menu li a{
+	font-size: 14px;
+}
+
+.btn-search{
+	/*background-color: #38a9ff;*/
+	background-color: #069;
+	height: auto;
+	width: 100%;
+	color: #fff;
+ }
+
+.arrow-division input[type='text']{
+	width: 90%;
+	margin-top: 5%;
+	border-color: #333;
+ }
+
+
+.arrow-division select{
+	border-color: #333;
+}
+ 
+.arrow-division h3{
+	color: #47a3da;	
+}
+	
+.arrow-division p{
+	padding: 0;
+	margin-left: 10px;
+	color: #ddd;
+}
+  
+.arrow-division .btn-info{
+	margin-top: -25px !important;
+	margin-left: 10px;
+}
+
+
+/*
+-----------------------------------------------------------------------------
+	CLEAR FLOATS
+-----------------------------------------------------------------------------
+*/
+
+.arrow-division .cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+
+.arrow-division .cf:after{
+    clear:both;
+}
+
+.arrow-division .cf{
+    zoom:1;
+}
+
+/*
+-----------------------------------------------------------------------------
+	FORM ELEMENTS
+-----------------------------------------------------------------------------
+*/
+
+/*
+Prefixed properties like -moz-box-shadow weren't included, I just wanted to 
+keep the following code clean. Though, they are included in the demo example.
+*/
+
+/* Form wrapper styling */
+.arrow-division .form-wrapper {
+	position: absolute;
+	left: 12%;
+    width: 75%;
+	height: 70px;
+    padding: 5px;
+    margin: 10px auto 10px auto;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    border-radius: 10px !important;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}
+
+/* Form canvas */
+.arrow-division .form-wrapper .canvas {
+    width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+/* Form text input */
+
+.arrow-division .form-wrapper input {
+	position: relative;
+    width: 78%;
+    height: calc(100% / 1.5);
+	padding-left: 15px;
+	top: 0;
+	left: 2%;
+	float: left;    
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    border-radius: 5px 0 0 5px !important;  
+ 
+}
+
+.arrow-division .form-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+
+.arrow-division .form-wrapper input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+}
+
+.arrow-division .form-wrapper input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.arrow-division .form-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}    
+
+/* Form submit button */
+.arrow-division .form-wrapper button {
+	position: relative;
+	top: 0;
+	right: 3%;
+	height: calc(100% / 1.5);
+    width: 18%;
+	float: right;
+	overflow: visible;
+    padding: 0;
+    cursor: pointer;
+    font: 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    background: #069;
+	/*background: #38a9ff;*/
+    border-radius: 0 5px 5px 0 !important;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+	border: 0;
+}   
+  
+.arrow-division .form-wrapper button:hover{		
+   /*background: #e54040;*/
+   background: #069;
+}	
+  
+.arrow-division .form-wrapper button:active,
+.arrow-division .form-wrapper button:focus{   
+    /*background: #c42f2f;*/
+	background: #3c3;
+	outline: 0;   
+}
+
+.arrow-division .form-wrapper button:before { /* left arrow */
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #069 transparent;
+    top: 12px;
+    left: -6px;
+}
+
+.arrow-division .form-wrapper button:hover:before{
+	/* border-right-color: #e54040;*/
+    border-right-color: #069;
+}
+
+.arrow-division .form-wrapper button:focus:before,
+.arrow-division .form-wrapper button:active:before{
+        /*border-right-color: #c42f2f;*/
+		border-right-color: #3c3;
+}      
+
+.arrow-division .form-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+} 
+
+/*
+-----------------------------------------------------------------------------
+	SELECT MENU
+-----------------------------------------------------------------------------
+*/
+
+.arrow-division select {
+	position: absolute;
+  	display: block;
+  	width: 19%;
+	top: 85px;
+	left: 0;
+  	float: left;
+  	height: 34px;
+ 	margin: 3px;
+  	padding: 6px 12px;
+  	font-size: 14px;
+  	line-height: 1.42857143;
+  	color: #555;
+  	background-color: #fff;
+  	background-image: none;
+  	border: 1px solid #38a9ff;
+  	border-radius: 4px !important;
+  	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.arrow-division select :focus {
+ 	 border-color: #66afe9;
+  	outline: 0;
+  	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+     box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.arrow-division select ::-moz-placeholder {
+  	color: #999;
+  	opacity: 1;
+}
+.arrow-division select :-ms-input-placeholder {
+  	color: #999;
+}
+.arrow-division select ::-webkit-input-placeholder {
+  	color: #999;
+}
+
+.form-wrapper .property{
+	left: 0;
+}
+	
+.form-wrapper .buy{
+	left: 20%;
+}
+	
+.form-wrapper .price{
+	left: 40%;
+}
+	
+.form-wrapper .beds{
+	left: 60%;
+}
+	
+.form-wrapper .garage{
+	left: 80%;
+}
+
+/*
+-----------------------------------------------------------------------------
+	MEDIA QUERIES - Responsive breakpoints
+-----------------------------------------------------------------------------
+*/
+
+/*
+	EXTRA SMALL DEVICES (SMART PHONES)  < 768px
+-----------------------------------------------------------------------------
+*/
+
+@media (min-width: 576px){
+	.arrow-division .form-wrapper button {;
+    	font: 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	} 
+}
+
+@media (max-width: 767px){ 
+	.arrow-division{
+		width: 80%;
+		left: 10%;
+		height: 25% !important;
+	}
+
+	.arrow-division .menu ul li a {   
+		display: none;    
+	}
+	
+	.arrow-division select{
+		display: none;
+	}
+	
+	.arrow-division .form-wrapper {
+       
+	}
+	
+	.arrow-division .form-wrapper input {
+    	width: 75%;
+		margin: 10px auto !important;    
+		float: none;   
+	}
+	
+	.arrow-division .form-wrapper button { 
+		width: 20%;
+		margin: 10px auto !important;  
+		float: none;    
+	}
+}
+
+@media (min-width: 768px){
+	.arrow-division{
+		width: 80%;
+		left: 10%;
+		height: 32%;
+	}
+	
+	.arrow-division .form-wrapper { 
+		left: 5%;
+		width: 90% ;  
+	}
+	
+	.arrow-division .form-wrapper input {
+    	width: 75% auto;
+		margin: 10px auto !important;    
+		float: none;   
+	}
+	
+	.arrow-division .form-wrapper button { 
+		width: 20% auto;
+		margin: 10px auto !important;  
+		float: none;    
+	}
+	
+	.arrow-division select {
+		height: 35px !important;
+	}
+}
+
+@media (max-width: 991px){
+	.arrow-division{
+		width: 80%;
+		left: 10%;
+		height: 32%;
+	}
+	
+	.arrow-division .form-wrapper input {
+    	width: 75% auto;
+		margin: 10px auto !important;    
+		float: none;   
+	}
+	
+	.arrow-division .form-wrapper button { 
+		width: 20% auto;
+		margin: 10px auto !important;  
+		float: none;    
+	}
+	
+	.arrow-division select {
+		height: 35px !important;
+	}
+}
+
+
+
+
+

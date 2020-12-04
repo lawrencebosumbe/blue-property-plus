@@ -1,0 +1,111 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 20/09/2017 09:48
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-bag-outline:before { content: "\f100"; }
+.flaticon-people:before { content: "\f101"; }
+.flaticon-video:before { content: "\f102"; }
+.flaticon-telephone-purchase:before { content: "\f103"; }
+.flaticon-chat-support:before { content: "\f104"; }
+.flaticon-wrench:before { content: "\f105"; }
+.flaticon-account-passkey:before { content: "\f106"; }
+.flaticon-security-on:before { content: "\f107"; }
+.flaticon-study-certificate:before { content: "\f108"; }
+.flaticon-round-account-button-with-user-inside:before { content: "\f109"; }
+.flaticon-warning-sign:before { content: "\f10a"; }
+.flaticon-locked-internet-security-padlock:before { content: "\f10b"; }
+.flaticon-placeholder-filled-point:before { content: "\f10c"; }
+.flaticon-four-thumbnails-visualization-button:before { content: "\f10d"; }
+.flaticon-shield-variant-with-white-and-black-borders:before { content: "\f10e"; }
+.flaticon-policeman:before { content: "\f10f"; }
+.flaticon-listing-option:before { content: "\f110"; }
+.flaticon-call-answer:before { content: "\f111"; }
+.flaticon-women-account:before { content: "\f112"; }
+.flaticon-technology:before { content: "\f113"; }
+.flaticon-food:before { content: "\f114"; }
+.flaticon-question:before { content: "\f115"; }
+.flaticon-arroba:before { content: "\f116"; }
+.flaticon-fingerprint:before { content: "\f117"; }
+.flaticon-button:before { content: "\f118"; }
+.flaticon-warning:before { content: "\f119"; }
+.flaticon-joke:before { content: "\f11a"; }
+.flaticon-substract:before { content: "\f11b"; }
+.flaticon-add:before { content: "\f11c"; }
+.flaticon-play-button-1:before { content: "\f11d"; }
+.flaticon-pdf:before { content: "\f11e"; }
+.flaticon-doc:before { content: "\f11f"; }
+.flaticon-play-button:before { content: "\f120"; }
+.flaticon-support:before { content: "\f121"; }
+.flaticon-house-with-shield:before { content: "\f122"; }
+.flaticon-protection-shield-with-a-check-mark:before { content: "\f123"; }
+    
+    $font-Flaticon-bag-outline: "\f100";
+    $font-Flaticon-people: "\f101";
+    $font-Flaticon-video: "\f102";
+    $font-Flaticon-telephone-purchase: "\f103";
+    $font-Flaticon-chat-support: "\f104";
+    $font-Flaticon-wrench: "\f105";
+    $font-Flaticon-account-passkey: "\f106";
+    $font-Flaticon-security-on: "\f107";
+    $font-Flaticon-study-certificate: "\f108";
+    $font-Flaticon-round-account-button-with-user-inside: "\f109";
+    $font-Flaticon-warning-sign: "\f10a";
+    $font-Flaticon-locked-internet-security-padlock: "\f10b";
+    $font-Flaticon-placeholder-filled-point: "\f10c";
+    $font-Flaticon-four-thumbnails-visualization-button: "\f10d";
+    $font-Flaticon-shield-variant-with-white-and-black-borders: "\f10e";
+    $font-Flaticon-policeman: "\f10f";
+    $font-Flaticon-listing-option: "\f110";
+    $font-Flaticon-call-answer: "\f111";
+    $font-Flaticon-women-account: "\f112";
+    $font-Flaticon-technology: "\f113";
+    $font-Flaticon-food: "\f114";
+    $font-Flaticon-question: "\f115";
+    $font-Flaticon-arroba: "\f116";
+    $font-Flaticon-fingerprint: "\f117";
+    $font-Flaticon-button: "\f118";
+    $font-Flaticon-warning: "\f119";
+    $font-Flaticon-joke: "\f11a";
+    $font-Flaticon-substract: "\f11b";
+    $font-Flaticon-add: "\f11c";
+    $font-Flaticon-play-button-1: "\f11d";
+    $font-Flaticon-pdf: "\f11e";
+    $font-Flaticon-doc: "\f11f";
+    $font-Flaticon-play-button: "\f120";
+    $font-Flaticon-support: "\f121";
+    $font-Flaticon-house-with-shield: "\f122";
+    $font-Flaticon-protection-shield-with-a-check-mark: "\f123";

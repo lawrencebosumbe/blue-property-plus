@@ -1,0 +1,482 @@
+/*
+--------------------------------------------------------------
+	TOP HEADER 
+	
+	Version 2.0
+	Blue Property Plus
+	Designed By Lawrence E Bosumbe © All Rights Reserved
+--------------------------------------------------------------
+*/
+
+/*
+--------------------------------------------------------------
+	HEADER
+--------------------------------------------------------------
+*/
+
+.top-header {
+  	position: fixed;
+  	top: 0px;
+  	max-height: 90px;
+  	z-index: 999;
+  	width: 100%;
+  	padding-top: 10px;
+  	background: #fff;
+  	overflow: hidden;
+  	-webkit-transition: all 0.3s;
+  	transition: all 0.3s;
+  	opacity: 1;
+  	top: 0;
+  	padding-bottom: 6px;
+  	font-family: "Oswald", sans-serif;
+	-moz-box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.sticky {
+  	position: fixed;
+  	top: 0px;
+  	max-height: 90px;
+  	z-index: 999;
+  	width: 100%;
+  	padding-top: 10px;
+  	/*background: #38a9ff;*/
+	background: #337ab7;
+  	overflow: hidden;
+  	-webkit-transition: all 0.3s;
+  	transition: all 0.3s;
+  	opacity: 1;
+  	top: 0;
+  	padding-bottom: 6px;
+  	font-family: "Oswald", sans-serif;
+	-moz-box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/*
+--------------------------------------------------------------
+	NAVIGATION
+--------------------------------------------------------------
+*/
+
+nav {
+  	width: 100%;
+	margin: 0;	
+}
+
+nav ul {
+  	list-style: none;
+  	overflow: hidden;
+  	text-align: right;
+}
+
+.open-nav { 
+	max-height: 600px; 
+}
+
+nav ul a {
+  	color: #888888;
+  	text-transform: uppercase;
+  	font-size: 14px;
+	text-decoration: none !important;
+}
+
+nav ul li {
+  	display: inline-block;
+  	margin-left: 25px;
+	margin-top: 25px;
+  	line-height: 1.5;
+}
+
+nav ul li a{
+  	position: relative;
+  	display: block;
+  	padding: 15px;
+}
+
+nav ul li a:hover{
+	/*background: #38a9ff;*/
+	background: #337ab7;
+	border-radius: 5px;
+	color: #fff;
+}
+
+/*
+	TOP HEADER NAV
+--------------------------------------------------------------
+*/
+
+.top-header nav ul a {
+  	color: #888888;
+  	text-transform: uppercase;
+  	font-size: 14px;
+	text-decoration: none !important;
+}
+
+.top-header nav ul li a{
+  	position: relative;
+  	display: block;
+  	padding: 10px 15px;
+	font-weight:bold;
+}
+
+.top-header nav ul li a:hover{
+	background: #337ab7;
+	border-radius: 5px !important;
+	color: #fff;
+}
+
+/*
+	STICKY NAV
+--------------------------------------------------------------
+*/
+
+.sticky nav ul a {
+  	color: #fff;
+  	text-transform: uppercase;
+  	font-size: 14px;
+	text-decoration: none !important;
+}
+
+.sticky nav ul li a{
+  	position: relative;
+  	display: block;
+  	padding: 10px 15px;
+	font-weight:bold;
+}
+
+.sticky nav ul li a:hover{
+	background: #fff;
+	border-radius: 5px !important;
+	color: #337ab7;
+}
+
+/*
+	STICKY NAV IMAGE
+--------------------------------------------------------------
+*/
+
+.sticky img{
+  	margin-top: 0;
+  	width: 158px;
+  	height: 65px;
+  	margin-bottom: 15px;
+	float: left;
+}
+
+.top-header img{
+  	margin-top: 0;
+  	width: 158px;
+  	height: 65px;
+  	margin-bottom: 15px;
+	float: left;
+
+}
+
+/*
+	MOBILE TOGGLE
+--------------------------------------------------------------
+*/
+
+.mobile-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  right: 22px;
+  top: 0;
+  width: 30px;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.mobile-toggle span {
+  width: 30px;
+  height: 4px;
+  margin-bottom: 6px;
+  border-radius: 1000px;
+  background: #8f8f8f;
+  display: block;
+}
+
+.open-nav .mobile-toggle {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+ @-webkit-keyframes 
+scroll {  0% {
+ opacity: 1;
+ -webkit-transform: translateY(0);
+ transform: translateY(0);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: translateY(20px);
+ transform: translateY(20px);
+}
+}
+@keyframes 
+scroll {  0% {
+ opacity: 1;
+ -webkit-transform: translateY(0);
+ -ms-transform: translateY(0);
+ transform: translateY(0);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: translateY(20px);
+ -ms-transform: translateY(20px);
+ transform: translateY(20px);
+}
+}
+
+/*
+--------------------------------------------------------------
+	MEDIA QUERIES
+--------------------------------------------------------------
+*/
+
+/*
+	RESPONSIVE BREAKPOINTS
+	Extra small devices (portrait phones, less than 576px)
+	No media query for `xs` since this is the default in Bootstrap
+-----------------------------------------------------------------------------
+*/
+
+
+/*
+	EXTRA SMALL DEVICES (SMART PHONES)  < 576px
+-----------------------------------------------------------------------------
+*/
+
+@media (max-width: 767px){
+nav { width: 100%; }
+nav ul {
+  	padding-top: 10px;
+  	margin-bottom: 22px;
+  	float: left;
+  	text-align: center;
+  	width: 100%;
+}
+nav ul li {
+  	width: 100%;
+  	padding: 7px 0;
+  	margin: 0;
+}
+.mobile-toggle { 
+  	display: block; 
+  	top: 25px;
+  	right: 25px;
+  	float: right;
+}
+
+/*
+	POPOVER CUSTOMIZATION
+----------------------------------------------------------
+*/
+	/* The max width is dependant on the container (more info below) */
+	.popover{
+		position: fixed !important;
+		margin-top: 23px !important;
+		min-width: 75% !important; /* Max Width of the popover (depending on the container!) */
+	}
+}
+
+@media (min-width: 768px){
+	.top-header{
+		position: fixed;
+		width: 100%;
+		max-height: 375px;
+	}
+	
+	.top-header img{
+		position: relative;
+		left: 42%;
+		width: 128px;
+	}
+	
+	.sticky {
+		position: fixed;
+		width: 100%;
+		max-height: 375px;
+	}
+	
+	.sticky img{
+		position: relative;
+		left: 42%;
+		width: 128px;
+	}
+	
+/*
+	NAVIGATION
+--------------------------------------------------------------
+*/
+
+/*
+	POPOVER CUSTOMIZATION
+----------------------------------------------------------
+*/
+	/* The max width is dependant on the container (more info below) */
+	.popover{
+		position: fixed !important;
+		margin-top: 23px !important;
+		min-width: 50% !important; /* Max Width of the popover (depending on the container!) */
+		/* max-width: 276px; Default width */
+		border-radius: 6px !important;
+		box-shadow: 0 5px 15px rgba(0, 0, 0, .45) !important;
+		border: 1px solid #069 !important;
+	}
+		
+	.popover.bottom > .arrow {
+	  border-bottom-color: #069 !important;
+	}
+
+	.popover ul li{
+		list-style: none;
+	}
+	
+	.popover ul li a{
+		font-size: 16px;
+		color: #069;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	
+	.popover ul li a:hover{
+		color: #f00;
+		text-decoration: none;
+	}
+	
+	.popover ul li span{
+		position: absolute;
+		left: 43%;
+		font-size: 12px;
+		color: #777;
+	}
+
+	.popover ul hr{
+		margin-top: 15px;
+		color: #777;
+	}
+	
+	.popover-content {
+	  padding: 15px 14px;
+	  line-height: 1.8;
+	}
+
+	nav {
+		width: 100%;
+		margin: 0;	
+	}
+	
+	nav ul {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		text-align: left;
+	}
+	
+	
+	nav ul li {
+		margin-left: 5px;
+		margin-top: 5px;
+		line-height: 1.5;
+	}
+	
+	nav ul li a{
+		padding: 5px;
+	}
+
+	.top-header nav ul li a{
+  		padding: 5px 10px;
+	}
+	
+	.sticky nav ul li a{
+  		padding: 5px 10px;
+	}
+}
+
+@media (max-width: 991px){
+	/*
+	POPOVER CUSTOMIZATION
+----------------------------------------------------------
+*/
+	/* The max width is dependant on the container (more info below) */
+	.popover{
+		position: fixed !important;
+		margin-top: 23px !important;
+		min-width: 55% !important; /* Max Width of the popover (depending on the container!) */
+	}
+}
+
+@media (min-width: 992px) {
+	
+	.top-header img{
+		position: relative;
+		left: 5%;
+		width: 128px;
+	}
+	
+	.sticky img{
+		position: relative;
+		left: 5%;
+		width: 128px;
+	}
+
+	nav ul {
+		position: relative;
+		left: 5%;
+		top: 15px;
+		width: 80%;
+		text-align: left;
+	}
+	
+}
+
+@media (min-width: 992px) {
+	.top-header nav ul li a{
+		position: relative;
+		display: block;
+		padding: 10px 15px;
+		font-weight:bold;
+	}
+	
+	.sticky nav ul li a{
+		position: relative;
+		display: block;
+		padding: 10px 15px;
+		font-weight:bold;
+	}
+}
+
+@media (min-width: 1200px) {
+	.top-header nav ul li a{
+		position: relative;
+		display: block;
+		padding: 10px 15px;
+		font-weight:bold;
+	}
+	
+	.sticky nav ul li a{
+		position: relative;
+		display: block;
+		padding: 10px 15px;
+		font-weight:bold;
+	}
+}
+
+/*
+	SMALL DEVICES (LANDSCAPE PHONES 576px AND UP)
+-----------------------------------------------------------------------------
+*/
+
+
+
+
+
+
+

@@ -1,0 +1,509 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+-----------------------------------------------------------------------------
+	PROPERTY GUIDE
+-----------------------------------------------------------------------------
+*/
+
+/*
+	TOP ADS AGENCY LOGO
+--------------------------------------------------------
+*/
+.ads-card img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 15%;
+	height: 100% !important;
+}
+
+.single-city-listing{
+	margin: 15px 45px;
+}
+
+.pull-top-85{
+	margin-top: -85px;
+}
+
+/*
+.single-city-listing .col-lg-8 ul li{
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	font-weight: 500;
+}
+
+.single-city-listing .col-lg-4 ul li{
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	font-weight: 500;
+}
+*/
+
+.city-item {
+  min-height: 245px;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -moz-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  margin-bottom: 25px;
+  border:3px solid #80bdff;
+  border-radius: 5px;
+}
+
+.city-suburbs {
+  border:3px solid #80bdff;
+  min-height: 245px;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -moz-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.banner-add {
+  /* border:5px solid #0e7ddc; */
+  /* border:5px solid #e4e4e4; */
+ 
+}
+
+/* Ads 1 
+------------------------------------
+*/
+
+.city-ads {
+  height: 475px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom:25px;
+  /*border-top-right-radius: 45px;*/
+}
+
+.city-ads .full-row img{
+  height: 325px;
+  /*border-bottom-left-radius: 45px;*/
+  /*border-top-right-radius: 45px;*/
+}
+
+.city-ads .list__cat-label-1{
+	position: absolute;
+	top: 65%;
+	left: 65px;
+	width: 125px;
+	height: 35px;
+	padding-top: 10px;
+	/*border-top-left-radius: 45px;*/
+	/*border-bottom-right-radius: 45px;*/
+}
+
+.city-ads p{
+	position: relative;
+	top: 78%;
+	left: 3%;
+	font-size: 15px;
+	color: #999;
+	font-weight: bold;
+}
+
+.city-ads h3{
+	position: relative;
+	top: 76% !important;
+	left: 20%;
+	font-size: 20px;
+	text-transform: lowercase;
+	font-weight: bold;
+	color: #38a9ff;
+}
+
+.city-ads .list__cat-label-1 a{
+	color: #fff;
+}
+
+.city-ads h4{
+	position: relative;
+	top: 76%;
+	left: 18%;
+	text-transform: lowercase;
+	font-size: 15px;
+	color: #f00;
+}
+
+/* Ads 2
+-----------------------------------
+*/
+
+.city-ads-2 {
+  height: 475px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom:25px;
+  /*border-top-right-radius: 45px;*/
+}
+
+.city-ads-2 .full-row img{
+  height: 325px;
+  /*border-bottom-left-radius: 45px;*/
+  /*border-top-right-radius: 45px;*/
+}
+
+.city-ads-2 .list__cat-label-1{
+	position: absolute;
+	top: 65%;
+	left: 65px;
+	width: 125px;
+	height: 35px;
+	padding-top: 10px;
+	/*border-top-left-radius: 45px;*/
+	/*border-bottom-right-radius: 45px;*/
+}
+
+/* LISTING ADS 1 IMAGE
+-----------------------------------
+*/
+
+
+.listing-ads .listing__footer{
+	position: relative;
+	top: 125px;
+}
+
+.listing-ads .listing__footer ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+.listing-ads .listing__footer li img{
+	margin-left: -10px;
+	width: 125px;
+	height: 75px;
+}
+
+.listing-ads h4{
+	left: 20%;
+	font-size: 16px;
+}
+	
+.listing-ads .listing__footer li a{
+	position: relative;
+	left: 125px;
+	top: 25px !important;
+	font-size: 17px;
+}
+
+.city-text {
+  padding: 20px;
+  text-align: left
+}
+
+.city-text h4{
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+.city-text ul{
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.city-text ul li a{
+	font-size: 17px;
+}
+
+.city-text ul li a:hover{
+	color: #999;
+}
+
+
+.city-text ul li span{
+	font-size: 15px;
+	margin-left: 10px;
+	color: #999;
+}
+
+.city-text a span {
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 3px;
+  text-transform: uppercase
+}
+
+.city-item .overlay {
+  bottom: -1px;
+  position: absolute;
+  top: 0;
+  width: 100%
+}
+
+.post-admin {
+	margin-bottom: 20px
+}
+
+.city-item:hover .overlay .plus{
+	opacity:1
+}
+
+/*
+----------------------------------------------------------------
+	NEDIA QUERIES
+----------------------------------------------------------------
+*/
+
+/*
+	TOP ADS CARD
+----------------------------------------------------------------
+*/
+
+.card .list__cat-label-2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 85px;
+	height: 25px;
+	padding-top: 5px;
+}
+
+.card .list__cat-label-3{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 85px;
+	height: 25px;
+	padding-top: 5px;
+}
+
+@media (max-width: 767px){
+	.ads-card {
+		height: 125px;
+	}
+	
+	.card .listing__plus{
+		position: absolute;
+		top: 355px !important;
+	}
+	
+	.card {
+	  	position: relative;
+	 	display: -ms-flexbox;
+	  	display: flex;
+	  	-ms-flex-direction: column;
+	  	flex-direction: column;
+	  	height: 100%;
+		width: 100%;
+	  	margin-bottom: 15px;
+	  	margin-right: 5px;
+	}
+	
+	.card .card-section{
+		height: 325px;
+	}
+	
+	.card .card-section .card-header{
+		margin-bottom: 35px;
+	}
+	
+	.card .card-section .card-header img{
+		margin-top: 15px;
+		margin-left: 25px;
+	}
+	
+	.card .card-header figcaption{
+		margin-top: 75px;
+		margin-left: 215px;
+	}
+	
+	.card .card-section .card-body ul li{
+		display: flex;
+		direction: row;
+		justify-content: center;
+		list-style: none;
+	}
+		
+	.card .card-section .card-body > li:nth-child(1){
+		
+	}
+	
+	.card .card-section .card-body li:nth-child(2){
+
+	}
+
+
+/* 	LISTING ADS 1 IMAGE
+-----------------------------------
+*/
+	
+	.listing-ads .image-holder img{
+		position: relative;
+		min-width: 106%;
+		left: -3% !important;
+		height: 250px;
+	}
+	
+	.listing-ads h4{
+		left: 30%;
+		font-size: 16px;
+	}
+	
+	.listing-ads .price{
+		left: 30%;
+	}
+	
+	.listing-ads .listing__footer{
+		top: 75px;
+	}
+	
+	.listing-ads .listing__footer ul li{
+		display: inline-block;
+		list-style: none;
+	}
+	
+	.listing-ads .listing__footer li a{
+		left: 250px;
+	}
+}
+
+@media (min-width: 768px){
+	.listing-ads .listing__plus{
+		position: absolute;
+		top: 50px !important;
+	}
+	.listing-ads .image-holder img{
+		position: relative;
+		width: 90% !important;
+		left: -5%;
+	}
+	
+	.listing-ads h4{
+		position: relative;
+		left: 5%;
+	}
+	
+	.listing-ads .price{
+		position: relative;
+		left: 10%;
+	}
+	
+	.listing-ads .listing__footer li a{
+		left: 45%;
+		top: 15px !important;
+	}
+}
+
+@media (min-width: 1199px){
+	.listing-ads .listing__plus{
+		position: absolute;
+		top: 50px !important;
+	}
+	.listing-ads .image-holder img{
+		position: relative;
+		width: 92% !important;
+		left: -4%;
+	}
+	
+	.listing-ads h4{
+		position: relative;
+		left: 5%;
+	}
+	
+	.listing-ads .price{
+		position: relative;
+		left: 10%;
+	}
+	
+	.listing-ads .listing__footer li a{
+		position: relative;
+		left: 75px;
+		top: 15px !important;
+	}
+}
+
+@media (max-width: 991px){
+	
+/* 	LISTING ADS 1 IMAGE
+-----------------------------------
+*/
+	
+	.listing-ads .image-holder img{
+		position: relative;
+		width: 87.5% !important;
+		left: -2%;
+		height: 250px;
+	}
+	
+	.listing-ads h4{
+		left: 30%;
+		font-size: 16px;
+	}
+	
+	.listing-ads .price{
+		left: 30%;
+	}
+	
+	.listing-ads .listing__footer{
+		top: 75px;
+	}
+	
+	.listing-ads .listing__footer ul li{
+		display: inline-block;
+		list-style: none;
+	}
+	
+	.listing-ads .listing__footer li a{
+		left: 350px;
+	}
+}
+
+@media ((max-width: 991px) and (min-width: 768px){
+	
+/* 	LISTING ADS 1 IMAGE
+-----------------------------------
+*/
+	
+	.listing-ads .image-holder img{
+		position: relative;
+		width: 87.5% !important;
+		left: -2%;
+		height: 250px;
+	}
+}
+
+@media (max-width: 1199px){
+	
+/* 	LISTING ADS 1 IMAGE
+-----------------------------------
+*/
+		
+	.listing-ads .image-holder img{
+		position: relative;
+		width: 90%  !important;
+		left: -5%;
+	}
+	
+	.listing-ads .price{
+		left: 12%;
+	}
+		
+	.listing-ads h4{
+		left: 12%;
+	}
+	
+	.listing-ads .listing__footer li img{
+		position: relative;
+		left: 5px;
+		top: 25px;
+	}
+	
+	.listing-ads .listing__footer li a{
+		left: 45px;
+		top: 45px !important;
+	}
+	
+
+}

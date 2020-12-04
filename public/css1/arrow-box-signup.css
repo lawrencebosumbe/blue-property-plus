@@ -1,0 +1,384 @@
+/*
+-----------------------------------------------------------------------------
+	ARROW DIV
+-----------------------------------------------------------------------------
+*/
+
+.row {
+	position: absolute;
+	top: 75px;
+	left: 25% !important;
+	/*background: #f1f1f1;*/
+	background: rgb(255, 255, 255, .5);
+	/*border: 5px solid #38a9ff;*/
+	border: 5px solid #069;
+	width: 45% !important;
+	height: 650px !important;
+	border-radius: 15px !important;
+	z-index: 100;
+}
+.row:after, .row:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+/*
+.arrow-division:after {
+	border-color: rgba(241, 241, 241, 0);
+	border-bottom-color: #f1f1f1;
+	border-width: 20px;
+	margin-left: -20px;
+}
+.arrow-division:before {
+	border-color: rgba(221, 221, 221, 0);
+	border-bottom-color: #47a3da;
+	border-width: 27px;
+	margin-left: -27px;
+}
+*/
+
+/*
+-----------------------------------------------------------------------------
+	SEARCH FIELD
+-----------------------------------------------------------------------------
+*/
+
+.row .menu{
+	position: relative;
+	color: #ddd;
+	font-size:16px;
+}
+ 
+.row .menu ul li{
+	display:inline-block;
+	margin-top: 25px;
+}
+  
+.row .menu ul li .active{
+	color: #fff;
+}
+  
+.row .menu ul li:nth-child(even){
+	margin-left: 15px;
+}
+   
+.row .menu ul li:nth-child(n+2){
+	margin-left: 15px;
+}
+   
+.row .menu ul li a{
+	color: #069;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu ul li a:hover{
+	color: #fff;
+	font-weight: bold;
+}
+	
+.btn-search{
+	/*background-color: #38a9ff;*/
+	background-color: #069;
+	height: auto;
+	width: 100%;
+	color: #fff;
+ }
+
+.row select{
+	border-color: #333;
+}
+ 
+.row h2{
+	margin-top: 25px;
+	font-size: 36px;
+	font-weight: bold;
+}
+	
+.row p{
+	padding: 0;
+	margin-left: 10px;
+	color: #ddd;
+}
+
+/*
+-----------------------------------------------------------------------------
+	CLEAR FLOATS
+-----------------------------------------------------------------------------
+*/
+
+.row .cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+
+.row .cf:after{
+    clear:both;
+}
+
+.row .cf{
+    zoom:1;
+}
+
+/*
+-----------------------------------------------------------------------------
+	FORM ELEMENTS
+-----------------------------------------------------------------------------
+*/
+
+/*
+Prefixed properties like -moz-box-shadow weren't included, I just wanted to 
+keep the following code clean. Though, they are included in the demo example.
+*/
+
+/* Form wrapper styling */
+.row form {
+	position: relative;
+	top: 45px;
+	left: 5%;
+    width: 90%;
+	height: 540px;
+    padding: 5px;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    border-radius: 10px !important;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}
+
+/* Form canvas */
+.row form .canvas {
+    width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+/* Form text input */
+
+.row form .form-group {
+	margin-top: 25px;
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+}
+
+.row form .form-control {
+	margin-bottom: 15px;
+}
+
+.row input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+
+.row input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+}
+
+.row input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+}
+
+.row input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+}    
+
+/* Form submit button */
+.row button {
+	position: relative;
+	top: 30px;
+	font-size: 20px;
+}   
+  
+.row button:hover{		
+   /*background: #e54040;*/
+   background: #069;
+}	
+  
+.row button:active,
+.row button:focus{   
+    /*background: #c42f2f;*/
+	background: #3c3;
+	outline: 0;   
+}
+
+.row button:hover:before{
+	/* border-right-color: #e54040;*/
+    border-right-color: #069;
+}
+
+.row button:focus:before,
+.row button:active:before{
+        /*border-right-color: #c42f2f;*/
+		border-right-color: #3c3;
+}      
+
+.row button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+} 
+
+/*  */
+.row  p {
+	position: relative;
+	top: 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}  
+
+.row  p a{
+	position: relative;
+	top: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #069; 
+	text-decoration: none;
+}  
+
+.row  .term input[type="checkbox"]{
+	position: relative;
+	top: 35px;
+	left: -45%;
+}  
+
+.row  .term p {
+	position: relative;
+	top: 15px;
+	left: 0;
+	font-size: 16px;
+	color: #000;
+}  
+/*
+-----------------------------------------------------------------------------
+	SELECT MENU
+-----------------------------------------------------------------------------
+*/
+
+.row select :focus {
+  	outline: 0;
+  	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+     box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.row select ::-moz-placeholder {
+  	color: #999;
+  	opacity: 1;
+}
+
+/*
+-----------------------------------------------------------------------------
+	MEDIA QUERIES - Responsive breakpoints
+-----------------------------------------------------------------------------
+*/
+
+/*
+	EXTRA SMALL DEVICES (SMART PHONES)  < 768px
+-----------------------------------------------------------------------------
+*/
+
+@media (max-width: 767px){ 
+	.row{
+		top: 145px !important;
+		left: 12.5% !important;
+		width: 80% !important;
+		left: 0;
+		height: 1000px !important;
+		margin-bottom: 75px;
+	}
+
+	.col-lg-6{
+		width: 100% !important;
+		display: block !important;
+	}
+	
+	/* Form wrapper styling */
+	.row form {
+		top: 25px !important;
+		left: 5%;
+		width: 90%;
+		height: 720px !important;
+		padding: 5px;
+	}
+	
+	/* Form submit button */
+	.row button {
+	position: relative;
+	top: 25px !important;
+	
+	}
+	
+}
+
+/*
+	To maintain both tablet and desktop devices' styles,
+	it's recommended to override both (min-width: 768px) and 
+	(min-width: 992px)
+	
+	e.g. left: 15% !important; for (min-width: 768px);
+		 left: 25% !important; for (min-width: 992px)		 
+*/
+
+@media screen and (min-width: 768px){ 
+	.row{
+		margin-top: 115px !important;
+		margin-bottom: 50px;
+		left: 15% !important;
+		width: 75% !important;
+		height: 880px !important;
+	}
+
+	.col-lg-6{
+		width: 50%;
+		float: left;
+		display: inline-block;
+	}
+	
+	/* Form wrapper styling */
+	.row form {
+		top: 25px !important;
+		left: 5%;
+		width: 90%;
+		height: 600px;
+		padding: 5px;
+	}
+	
+}
+
+
+@media (min-width: 992px){ 
+	.row{
+		top: 50px !important;
+		left: 25% !important;
+		width: 45% !important;
+		height: 780px !important;
+	}
+
+	.col-lg-6{
+		width: 50%;
+		float: left;
+		display: inline-block;
+	}
+	
+	/* Form wrapper styling */
+	.row form {
+		top: -25px;
+		left: 5%;
+		width: 90%;
+		height: 530px;
+		padding: 5px;
+	}
+	
+	/* Form submit button */
+		.row button {
+		position: relative;
+		top: 25px !important;
+	
+	}
+}

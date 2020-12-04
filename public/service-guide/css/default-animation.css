@@ -1,0 +1,155 @@
+.additional-features label,
+.radio_check label,
+.image-rotate img,
+.according_title::after, 
+.according_title.active::after, 
+.blog-item:hover .overlay, 
+.blog-item:hover a .thumb-title,
+.blog-category li a:hover,
+.post_area ul li a:hover,
+.blog-detail:hover .blog-text a .thumb-title, 
+.latest-tweet ul li a:hover, 
+.newsletter .social-icon li a i:hover, 
+.product-item:hover .btn-cart, 
+.product-item:hover .discount,
+a:hover {
+  transition: all 300ms ease-in-out 0s;
+  -webkit-transition: all 300ms ease-in-out 0s;
+  -ms-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  -moz-transition: all 300ms ease-in-out 0s
+}
+.section-title-area-left .section-title::before{
+	-webkit-transform: none;
+	-ms-transform: none;
+	-o-transform: none;
+	-moz-transform: none;
+	transform: none
+}
+.section-title::before,
+.achivement > span::after,
+.popular_tab li a:before,
+.buy-now, .btn-safety-top, 
+.btn-safety-right, .btn-safety-bottom, 
+.btn-safety-left,
+.working-experience-items::before,
+.guaranty-safety-right,
+.testimonials-carousels .avata,
+.pricing-item .btn-secondary{
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%)
+}
+.carousel-caption,
+.owl-controls .owl-nav .owl-prev,
+.owl-controls .owl-nav .owl-next,
+.service_quote_form .form-group a,
+.slider > .deactive, .slider > .active,
+.download-btn {
+    -webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%)
+}
+.request-quote {
+  transform: translate(-6%, -40%);
+  -webkit-transform: translate(-6%, -40%);
+  -ms-transform: translate(-6%, -40%);
+  -o-transform: translate(-6%, -40%);
+  -moz-transform: translate(-6%, -40%)
+}
+.plus, .about-video span,
+.guaranty-safety-right > img,
+.gallery-text,
+.certification-item-list-detail .banner-title,
+.gallery-item a.btn-secondary {
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%)
+}
+.request-quote-2 .request-quote {
+    transform: translate(-4.5%, -42%);
+    -webkit-transform: translate(-4.5%, -42%);
+    -ms-transform: translate(-4.5%, -42%);
+    -o-transform: translate(-4.5%, -42%);
+    -moz-transform: translate(-4.5%, -42%)
+}
+.single-select input:checked + .slider:before {
+  -webkit-transform: translateX(70px);
+  -ms-transform: translateX(70px);
+  -o-transform: translateX(70px);
+  -mos-transform: translateX(70px);
+  transform: translateX(70px)
+}
+.according_title.active::after {
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -moz-transform: rotate(0deg)
+}
+.according_title::after {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -moz-transform: rotate(90deg)
+}
+.gallery-item .overlay {
+	transition: transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+   -ms-transition: transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+   -moz-transition: transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+   -webkit-transition: transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+   -o-transition: transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out
+}
+.gallery-item .overlay {
+	transform: scale(0);
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	-o-transform: scale(0);
+	-moz-transform: scale(0)
+}
+.blog-item .overlay {
+    -webkit-transform:scale(0.5);
+	-ms-transform:scale(0.5);
+	-o-transform:scale(0.5);
+	-moz-transform:scale(0.5);
+	transform:scale(0.5)
+}
+.blog-item:hover .overlay,
+.gallery-item:hover .overlay,
+.team-member:hover p,
+.team-overlay:hover .team-title{
+	-webkit-transform:scale(1);
+	-ms-transform:scale(1);
+	-o-transform:scale(1);
+	-moz-transform:scale(1);
+	transform:scale(1)
+}
+.team-overlay p,
+.team-overlay .team-title{
+    transform: scale(4);
+	-webkit-transform:scale(4);
+	-ms-transform:scale(4);
+	-o-transform:scale(4);
+	-moz-transform:scale(4)
+}
+.team-overlay .social-icon{
+    transform: translateY(100px);
+	-webkit-transform: translate(100px);
+    -ms-transform: translate(100px);
+    -o-transform: translate(100px);
+    -moz-transform: translate(100px)
+}
+.team-member:hover .social-icon{
+    transform: translateY(0px);
+	-webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    -moz-transform: translateY(0px)
+}
